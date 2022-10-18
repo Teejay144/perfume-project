@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  margin: 50px auto;
+  width: 600px;
+  align-items: center;
+  height: 450px;
+  border-radius: 8px;
+}
+
+.img {
+  height: inherit;
+}
+.img img {
+  width: 300px;
+  border-radius: 8px 0 0 8px;
+}
+.content {
+  padding-left: 20px;
+  padding-right: 10px;
+  background-color: white;
+  border-radius: 0 8px 8px 0;
+  height: inherit;
+}
+.header-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 3px;
+}
+.header {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+}
+
+.content-content {
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 180%;
+}
+
+.number {
+  font-family: "Fraunces", serif;
+  font-size: 25px;
+  color: hsl(158, 36%, 37%);
+}
+.number span {
+  font-size: 8px;
+  padding-left: 15px;
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+}
+
+button {
+  border: none;
+  font-size: 14px;
+  color: white;
+  background-color: hsl(158, 36%, 37%);
+  padding: 10px;
+  width: 80%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button svg {
+  padding-right: 10px;
+}
